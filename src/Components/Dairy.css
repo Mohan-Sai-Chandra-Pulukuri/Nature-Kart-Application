@@ -1,0 +1,69 @@
+
+.row{
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.chocolate{
+
+    border-style: solid;
+    border-color: green;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFF6BD;
+}
+
+.addToCart{
+
+    margin-top: 5%;
+    padding: 8px;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    background-color: green;
+    border-style: solid;
+    border-color: green;
+
+}
+.addToCart:hover{
+    margin-top: 5%;
+    padding: 8px;
+    border-radius: 5px;
+    color:green;
+    font-weight: bold;
+    background-color: white;
+    border-style: solid;
+    border-color: green;
+    cursor: pointer;
+
+}
+
+.quantity{
+    padding: 4%;
+    caret-color: green;
+    color: green;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B6E2A1;
+    border-radius: 4px;
+    margin-top:6% ;
+
+}
+.quantity:focus{
+    padding: 4%;
+    caret-color: green;
+    color: green;
+    border-style: solid;
+    border-radius: 4px;
+    outline-color: green;
+}

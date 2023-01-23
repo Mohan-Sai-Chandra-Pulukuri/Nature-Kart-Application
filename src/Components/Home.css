@@ -1,0 +1,65 @@
+.mainContainer{
+
+    background-color: #CDE990;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo{
+    width: 88px;
+    margin-right: 2%;
+    border-radius: 50%;
+}
+
+
+.outer{
+
+border-style: solid;
+border-color: green;
+background-color: green;
+padding: 45px;
+border-radius: 15px;
+    
+}
+.outer:hover{
+
+    border-style: solid;
+    border-color: green;
+    background-color: white;
+    padding: 45px;
+    border-radius: 15px;
+        
+    }
+.inner{
+    border-style: solid;
+    border-color: green;
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px;
+
+}
+.inner:hover{
+    border-style: solid;
+    border-color: white;
+    background-color: green;
+    border-radius: 15px;
+    padding: 50px;
+    color: white;
+
+}
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+.links:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+    text-decoration: underline;
+}
